@@ -10,15 +10,36 @@
 
 <div class="container">
 <div class="row">
+	<h3>{{title}}</h3>
+	<input type="text" ng-model="query">
 	<ul>
-	  <li ng-repeat="phone in phones">
+	  <li ng-repeat="phone in phoneItem = (phones | filter:{$:query, status:true})">
 	    <span>{{phone.name}}</span>
 	    <p>
-	      {{phone.snippet}}
+	      {{phone.snippet}}<br>
+	      Status: {{phone.status}}
 	    </p>
 	  </li>
 	</ul>
-	<p>Total phones: {{phones.length}}</p>
+	<p>Total phones: {{phoneItem.length}}</p>
+
+<hr>
+
+	<table>
+		<thead>
+			<tr>
+				<th><a href="" ng-click="sort('name')">Names 
+					<i class="glyphicon" ng-class="{'glyphicon-chevron-up': isSortUp('name'), 
+												    'glyphicon-chevron-down': isSortDown('name')}"></i></a></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="phone in phones | orderBy:sortField:reverse">
+				<td>{{phone.name}} - <em>{{phone.status}}</em></td>
+			</tr>
+		</tbody>
+	</table>
+
 </div>
 </div>
 
