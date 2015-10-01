@@ -1,0 +1,247 @@
+.box-sticker{
+       padding: 0 0 1px 0;
+       position: relative;
+       background: #fff;
+       background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#fff), to(#f3f3f3), color-stop(.1,#fff));
+       background: -moz-linear-gradient(0 0 270deg, #fff, #fff 10%, #f3f3f3);
+       border-top: 1px solid #ccc;
+       border-right: 1px solid #ccc;
+       border-left: 1px solid #ccc;
+       -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+       box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.box-sticker:before{
+       content: '';
+       position:absolute;
+       width: 130px;
+       height: 30px;
+       border-left: 1px dashed rgba(0, 0, 0, 0.1);
+       border-right: 1px dashed rgba(0, 0, 0, 0.1);
+       background: rgba(0, 0, 0, 0.1);
+       background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+       background: -moz-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+       -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+       box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+       -webkit-transform:translate(-50px,10px)
+            skew(10deg,10deg)
+            rotate(-50deg);
+       -moz-transform:translate(-50px,10px)
+            skew(10deg,10deg)
+            rotate(-50deg); 
+        -o-transform:translate(-50px,10px)
+            skew(10deg,10deg)
+            rotate(-50deg); 
+        transform:translate(-50px,10px)
+            skew(10deg,10deg)
+            rotate(-50deg);      
+}
+
+.box-sticker:after{
+       content: '';
+       position:absolute;
+       right:0;
+       bottom:0;
+       width: 130px;
+       height: 30px;
+       background: rgba(0, 0, 0, 0.1);
+       background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
+       background: -moz-linear-gradient(555% 0 180deg, rgba(0,0,0,0.1), rgba(0,0,0,0.2) 10%, rgba(0,0,0,0.0));
+       border-left: 1px dashed rgba(0, 0, 0, 0.1);
+       border-right: 1px dashed rgba(0, 0, 0, 0.1);
+       -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+       box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+       -webkit-transform: translate(50px,-20px)
+            skew(10deg,10deg)
+            rotate(-50deg);
+       -moz-transform: translate(50px,-20px)
+            skew(10deg,10deg)
+            rotate(-50deg);
+       -o-transform: translate(50px,-20px)
+            skew(10deg,10deg)
+            rotate(-50deg);
+       transform: translate(50px,-20px)
+            skew(10deg,10deg)
+            rotate(-50deg)       
+}
+
+.profile-image{
+      max-width:inherit;
+}
+
+.profile-image img{
+      min-width: 100%;
+      max-width:100%;
+      height:auto;
+      overflow:hidden;
+}
+
+@media (max-width: 400px){
+      .col-xxs-12 {
+          width: 100%;
+          float: left;
+      }
+}
+
+#main_info p{
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+}
+
+.contact {
+  background: #eee no-repeat 50% 50%;
+  background-size: cover;
+  text-shadow: 0px;
+  color: #333;
+}
+
+.contact h1{
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.separator{
+  clear:both;
+  margin:20px;
+  color: #333;
+  background: #333;
+  height: 2;
+}
+
+/* -------- rules for button -------*/
+
+.button-wrapper{
+  width: 320px;
+  margin: 0 auto;
+  padding: 0px;
+}
+.button-wrapper-large{
+  width:500px;
+  margin: 0 auto;
+  padding: 20px 0;
+  height: 80px;
+}
+
+a, a:hover, a:active, a:visited, a:link{
+  text-decoration: none;
+}
+
+.a-btn{
+    background:#80a9da;
+    background:-webkit-gradient(linear,left top,left bottom,color-stop(#80a9da,0),color-stop(#6f97c5,1));
+    background:-webkit-linear-gradient(top, #80a9da 0%, #6f97c5 100%);
+    background:-moz-linear-gradient(top, #80a9da 0%, #6f97c5 100%);
+    background:-o-linear-gradient(top, #80a9da 0%, #6f97c5 100%);
+    background:linear-gradient(top, #80a9da 0%, #6f97c5 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#80a9da', endColorstr='#6f97c5',GradientType=0 );
+    padding-left:20px;
+    padding-right:80px;
+    height:38px;
+    display:inline-block;
+    position:relative;
+    font-family: 'Oswald', Arial, sans-serif;
+    font-size: 13px;
+    border:1px solid #5d81ab;
+    -webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    -moz-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2), 0px 0px 0px 4px rgba(188,188,188,0.5);
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    border-radius:20px;
+    float:left;
+    clear:both;
+    margin:10px 0px;
+    overflow:hidden;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.a-btn-text{
+    padding-top:5px;
+    display:block;
+    font-size:18px;
+    white-space:nowrap;
+    text-shadow:0px 1px 1px rgba(255,255,255,0.3);
+    color:#446388;
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+}
+.a-btn-slide-text{
+    position:absolute;
+    height:100%;
+    top:0px;
+    right:52px;
+    width:0px;
+    background:#63707e;
+    text-shadow:0px -1px 1px #363f49;
+    color:#fff;
+    font-size:18px;
+    white-space:nowrap;
+    text-transform:uppercase;
+    text-align:left;
+    text-indent:10px;
+    overflow:hidden;
+    line-height:38px;
+    -webkit-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -webkit-transition:width 0.3s linear;
+    -moz-transition:width 0.3s linear;
+    -o-transition:width 0.3s linear;
+    transition:width 0.3s linear;
+}
+.a-btn-icon-right{
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    width:52px;
+    border-left:1px solid #5d81ab;
+    -webkit-box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+    -moz-box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+    box-shadow:1px 0px 1px rgba(255,255,255,0.4) inset;
+}
+.a-btn-icon-right span{
+    width:38px;
+    height:38px;
+    opacity:0.7;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-20px 0px 0px -20px;
+    background:transparent url(http://grafo.in.ua/images/main_page/arrow_right.png) no-repeat 50% 55%;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+}
+.a-btn:hover{
+    padding-right:180px;
+    -webkit-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    -moz-box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+    box-shadow:0px 1px 1px rgba(255,255,255,0.8) inset, 1px 1px 3px rgba(0,0,0,0.2);
+}
+.a-btn:hover .a-btn-text{
+    text-shadow:0px 1px 1px #5d81ab;
+    color:#fff;
+}
+.a-btn:hover .a-btn-slide-text{
+    width:100px;
+}
+.a-btn:hover .a-btn-icon-right span{
+    opacity:1;
+}
+.a-btn:active{
+    position:relative;
+    top:1px;
+    background:#5d81ab;
+    -webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.4) inset;
+    -moz-box-shadow:1px 1px 2px rgba(0,0,0,0.4) inset;
+    box-shadow:1px 1px 2px rgba(0,0,0,0.4) inset;
+    border-color:#80a9da;
+}
