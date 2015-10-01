@@ -41,7 +41,7 @@
         <p>This is an example of an application written in AngularJS, especially by Sergey Podgornyy.</p>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="phone in phones">
+        <div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="phone in phones | filter:search">
           <div class="preview-img text-center">
           	<img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}">
           	<span class="label" ng-init="status = phone.status ? 'Avaliable' : 'Under the order'" 
@@ -59,7 +59,7 @@
       <div class="list-group">
         <div class="list-group-item text-center">
           <form>
-            <input type="text" class="form-control" placeholder="Search...">
+            <input type="text" class="form-control" placeholder="Search..." ng-model="search">
           </form>
         </div>
       </div>
