@@ -3,7 +3,7 @@
   "private": true,
   "name": "angular-digitapp",
   "description": "A application on AngularJS",
-  "repository": "",
+  "repository": "https://github.com/SergeyPodgornyy/AngularJS-DigitApp.git",
   "license": "MIT",
   "devDependencies": {
     "karma": "^0.12.16",

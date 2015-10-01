@@ -2,7 +2,7 @@
   "name": "angular-digitapp",
   "description": "A project on AngularJS",
   "version": "0.0.0",
-  "homepage": "",
+  "homepage": "https://github.com/SergeyPodgornyy/AngularJS-DigitApp.git",
   "license": "MIT",
   "private": true,
   "dependencies": {
