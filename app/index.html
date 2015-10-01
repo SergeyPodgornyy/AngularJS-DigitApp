@@ -30,41 +30,10 @@
 </nav><!-- /.navbar -->
 
 <div class="container">
-<div class="row row-offcanvas row-offcanvas-right">
 
-    <div class="col-xs-12 col-sm-8">
-      <p class="pull-right visible-xs">
-        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-      </p>
-      <div class="jumbotron text-center">
-        <h1>Digit App</h1>
-        <p>This is an example of an application written in AngularJS, especially by Sergey Podgornyy.</p>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="phone in phones | filter:search">
-          <div class="preview-img text-center">
-          	<img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}">
-          	<span class="label" ng-init="status = phone.status ? 'Avaliable' : 'Under the order'" 
-          					  ng-class="{'label-success':phone.status, 'label-warning':!phone.status}">{{status}}</span>
-          </div>
-          <h2>{{phone.name}}</h2>
-          <p>{{phone.snippet}}}</p>
-          <p><a class="btn btn-default" href="#/phones/{{phone.id}}" role="button">View details &raquo;</a></p>
-        </div><!--/.col-sm-6.col-lg-4-->
-      </div><!--/row-->
-    </div><!--/.col-xs-12.col-sm-9-->
+<ng-view></ng-view>
 
-    <div class="col-xs-6 col-sm-4 sidebar-offcanvas" id="sidebar">
-      <h3 class="text-center">Product filter</h3>
-      <div class="list-group">
-        <div class="list-group-item text-center">
-          <form>
-            <input type="text" class="form-control" placeholder="Search..." ng-model="search">
-          </form>
-        </div>
-      </div>
-    </div><!--/.sidebar-offcanvas-->
-  </div><!--/row-->
+
     <hr>
 
     <footer>
@@ -77,13 +46,18 @@
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="bower_components/angular/angular.js"></script>
+  <!--Angular.js Route-->
+  <script src="bower_components/angular-route/angular-route.js"></script>
 
 	<!-- Modules -->
     <script src="js/app.js"></script>
 
     <!-- Controllers -->
     <script src="js/controllers/MainController.js"></script>
-
+    <script src="js/controllers/AboutController.js"></script>
+    <script src="js/controllers/ContactController.js"></script>
+    <script src="js/controllers/PhoneController.js"></script>
+    
     <!-- Services -->
     <script src="js/services/phones.js"></script>
 </body>
