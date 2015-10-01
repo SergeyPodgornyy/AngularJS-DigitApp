@@ -1,15 +1,23 @@
-digitApp.controller('MainCtrl', function ($scope) {
-  $scope.phones = [
-    {'name': 'Nexus S',
-     'snippet': 'Fast just got faster with Nexus S.',
- 	 'status': true},
-    {'name': 'Motorola XOOM™ with Wi-Fi',
-     'snippet': 'The Next, Next Generation tablet.',
- 	 'status': false},
-    {'name': 'MOTOROLA XOOM™',
-     'snippet': 'The Next, Next Generation tablet.',
- 	 'status': true}
-  ];
+digitApp.controller('MainCtrl', function ($scope, $http) {
+  $http.get('phones/phones.json').success(function(data, status, headers, config){
+    console.log('This is data: ',data,'\n\nThis is status: ', status,'\n\nThis is headers: ',headers,'\n\nThis is config: ',config);
+    $scope.phones = data;
+  }).error(function(err){
+    return err;
+  });
+
+  // $http.get(url, [config]);
+  // $http.post(url, data, [config]);
+  // $http.put(url, data, [config]);
+  // $http.patch(url, data, [config]);
+  // $http.delete(url, data, [config]);
+  // $http.head(url, data, [config]);
+  // $http.jsonp(url, data, [config]);
+
+  //url - url adress where we send request
+  //data - data for sending in request body
+  //config - JS Object which consist additional set up parameters
+
   $scope.title = 'Phones';
   $scope.sortField = undefined;
   $scope.reverse = false;
