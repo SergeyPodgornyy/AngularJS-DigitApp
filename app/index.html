@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="digitApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Digit App</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body ng-controller="MainCtrl">
+
+<div class="container">
+<div class="row">
+	<ul>
+	  <li ng-repeat="phone in phones">
+	    <span>{{phone.name}}</span>
+	    <p>
+	      {{phone.snippet}}
+	    </p>
+	  </li>
+	</ul>
+	<p>Total phones: {{phones.length}}</p>
+</div>
+</div>
+
+
+	<!-- Angular.js core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="bower_components/angular/angular.js"></script>
+
+	<!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
+</body>
+</html>

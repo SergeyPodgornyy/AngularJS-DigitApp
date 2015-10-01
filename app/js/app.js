@@ -1,0 +1,1 @@
+var digitApp = angular.module('digitApp', []);
