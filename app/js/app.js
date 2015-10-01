@@ -22,3 +22,10 @@ digitApp.config(['$routeProvider', function($routeProvider) {
       redirectTo: '/' 
     }); 
 }]);
+
+/* Filter */
+digitApp.filter('checkmark', function() {
+  return function(input) {
+    return input ? '\u2713' : '\u2718';
+  }
+});
