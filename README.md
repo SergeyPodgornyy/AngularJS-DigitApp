@@ -2,7 +2,7 @@
 
 In this repository you will find source files.
 
-npm-server and folder /bower_components **did not** include in project.
+*npm-server* and folder */bower_components* **did not** include in project.
 
 Important
 ---------
@@ -15,21 +15,17 @@ $ bower install
 also you need to install server.
 
 
-### Version
-*Current version: 0.0.2
-
-
 ### Installation
 
 First you need to clone repo:
 
 ```sh
-$ git clone 
+$ git clone https://github.com/SergeyPodgornyy/AngularJS-DigitApp
 ```
 
 Change directory:
 ```sh
-$ cd DigitApp-AngularJS
+$ cd AngularJS-DigitApp
 ```
 Then install bower:
 ```sh
@@ -56,11 +52,12 @@ Then we need to download all requested packages using package.json
 npm install
 ```
 
-### Start server.
+Start server
+------------
 
 We need to start our server using command:
 ```
 npm start
 ```
-And our application will be avaliable at: http://localhost:8000/app/index.html.
+And our application will be avaliable at: [http://localhost:8000/app/index.html](http://localhost:8000/app/index.html).
 
