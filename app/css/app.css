@@ -106,3 +106,22 @@ h2 {
   vertical-align: top;
   width: 30%;
 }
+
+li.li-footer{
+  width: 100%;
+}
+
+.specs span {
+  color:#2C6EA7;
+  font-weight: bold;
+}
+
+.specs hr{
+  color:#D0E6F9;
+  background: #D0E6F9;
+  height:1px;
+}
+
+dd{
+  margin-bottom: 5px;
+}
