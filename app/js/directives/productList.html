@@ -1,0 +1,9 @@
+
+	<div class="preview-img text-center">
+		<img ng-src="{{info.imageUrl}}" alt="{{info.name}}">
+		<span class="label" ng-init="status = info.status ? 'Avaliable' : 'Under the order'" 
+						  ng-class="{'label-success':info.status, 'label-warning':!info.status}">{{status}}</span>
+	</div>
+	<h2>{{info.name}}</h2>
+	<p>{{info.snippet}}</p>
+	<p><a class="btn btn-default" href="#/phones/{{info.id}}" role="button">View details &raquo;</a></p>
