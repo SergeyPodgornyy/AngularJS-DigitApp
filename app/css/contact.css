@@ -255,9 +255,18 @@ a, a:hover, a:active, a:visited, a:link{
   font-size: 18px !important;
 }
 
-.info hr{
+.info hr, .about hr{
   color:#999;
   background-color: #333;
   height: 1px;
   margin: 15px 0px;
+}
+
+.about{
+  margin-top: 40px;
+}
+
+.about p, .about li{
+  color:#666;
+  font-size: 18px !important;
 }
