@@ -57,5 +57,15 @@
     "storage": {
         "flash": "", 
         "ram": ""
-    }
+    },
+    "prices": [
+        {"name": "Main price",
+        "price": 249.99},
+        {"name": "Delivery",
+        "price": 24.99},
+        {"name": "Cover case",
+        "price": 19.99},
+        {"name": "Screen Protector",
+        "price": 9.99} 
+    ]
 }

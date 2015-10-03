@@ -60,5 +60,15 @@
     "storage": {
         "flash": "2000MB", 
         "ram": "512MB"
-    }
+    },
+    "prices": [
+        {"name": "Main price",
+        "price": 199.99},
+        {"name": "Delivery",
+        "price": 24.99},
+        {"name": "Cover case",
+        "price": 19.99},
+        {"name": "Screen Protector",
+        "price": 9.99}
+    ]
 }

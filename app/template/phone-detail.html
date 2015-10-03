@@ -1,5 +1,6 @@
 <div class="row">
   <div class="col-xs-12 col-sm-4">
+    <div>
     <div class="phone-images">
       <img ng-src="{{mainImageUrl}}">
     </div>
@@ -8,7 +9,26 @@
         <img ng-src="{{img}}" ng-click="setImage(img)">
       </li>
     </ul>
+    </div>
+    <div style="clear:both"></div>
+    <form class="order-form">
+      <h1>Order form</h1>
+      <ul>
+        <!-- Loop through the services array, assign a click handler, and set or
+          remove the "active" css class if needed -->
+        <li ng-repeat="price in phone.prices" ng-click="toggleActive(price)" ng-class="{active:price.active}">
+          <!-- Notice the use of the currency filter, it will format the price -->
+          {{price.name}} <span>{{price.price | currency}}</span>
+        </li>
+      </ul>
+      <div class="total">
+        <!-- Calculate the total price of all chosen services. Format it as currency. -->
+        Total: <span>{{total() | currency}}</span>
+      </div>
+    </form>
+    
   </div>
+
   <div class="col-xs-12 col-sm-8">
     <h1>{{phone.name}}</h1>
     <p>{{phone.description}}</p>

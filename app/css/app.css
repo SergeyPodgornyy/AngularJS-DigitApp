@@ -30,6 +30,25 @@ footer {
   z-index: 1;
   display: block;
 }
+
+.price {
+  background-color: #418DB9;
+  color: #FFF;
+  padding: 5px;
+  width: 65px;
+  height: 65px;
+  line-height: 60px;
+  font-weight: bold;
+  position: absolute;
+  top: -16px;
+  left: 0px;
+  z-index: 1;
+  display: block;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
 .preview-img img {
   max-height: 200px;
 }
