@@ -245,3 +245,19 @@ a, a:hover, a:active, a:visited, a:link{
     box-shadow:1px 1px 2px rgba(0,0,0,0.4) inset;
     border-color:#80a9da;
 }
+
+.info{
+  margin-top: 80px;
+  color:#666; 
+}
+
+.info p{
+  font-size: 18px !important;
+}
+
+.info hr{
+  color:#999;
+  background-color: #333;
+  height: 1px;
+  margin: 15px 0px;
+}
