@@ -61,6 +61,12 @@ h2 {
 .item {
   height: 500px;
 }
+
+.form-control{
+  padding-left:35px;
+  background: #fff no-repeat 10px 8px;
+  background-image: url('../img/magnifier.png');
+}
 /*
  * Off Canvas
  * --------------------------------------------------
