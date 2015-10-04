@@ -262,6 +262,14 @@ a, a:hover, a:active, a:visited, a:link{
   margin: 15px 0px;
 }
 
+.info img{
+  width:100px;
+  height: 100px;
+  overflow: hidden;
+  border: 2px solid #6ca439;
+  border-radius: 5px;
+}
+
 .about{
   margin-top: 40px;
 }
