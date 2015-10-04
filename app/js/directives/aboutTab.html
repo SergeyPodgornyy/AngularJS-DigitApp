@@ -1,0 +1,17 @@
+<br>
+<ul class="nav nav-tabs nav-justified" role="tablist">
+	<li ng-class="{ active:tab.isSet(project) }" ng-repeat="project in projects">
+		<a href ng-click="tab.setTab(project)">{{project.name}}</a>
+	</li>
+</ul>
+
+<div class="panel-body">
+	<div ng-show="tab.isSet(project)" ng-repeat="project in projects">
+		<img ng-src="{{project.images[0]}}" alt="" class="img-responsive project-img"><br>
+		<p>{{project.description}}</p>
+		<p ng-show="project.website.page">
+			See here: <a href="{{project.website.page}}" target="_blank">{{project.website.name}}</a>
+		</p>
+		<!-- <p>{{projects[0]}}</p> -->
+	</div>
+</div>
