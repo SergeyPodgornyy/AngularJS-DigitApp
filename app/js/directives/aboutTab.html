@@ -1,13 +1,27 @@
 <br>
 <ul class="nav nav-tabs nav-justified" role="tablist">
 	<li ng-class="{ active:tab.isSet(project) }" ng-repeat="project in projects">
-		<a href ng-click="tab.setTab(project)">{{project.name}}</a>
+		<a href ng-click="tab.setTab(project); tab.currentIndex = 0;">{{project.name}}</a>
 	</li>
 </ul>
 
 <div class="panel-body">
 	<div ng-show="tab.isSet(project)" ng-repeat="project in projects">
-		<img ng-src="{{project.images[0]}}" alt="" class="img-responsive project-img"><br>
+
+		<div ng-show="project.images.length">
+		  <img class="img-responsive project-img center-block"
+		       ng-src="{{project.images[tab.currentIndex]}}">
+			<ul class="list-inline list-unstyled text-center" style="margin-top: 20px">
+				<li ng-repeat="image in project.images"
+				    ng-click="tab.setCurrent($index)"
+						style="cursor: pointer">
+						<img class="thumbnail"
+								 style="max-height: 75px"
+								 ng-src="{{image}}">
+				</li>
+			</ul>
+		</div>
+
 		<p>{{project.description}}</p>
 		<p ng-show="project.website.page">
 			See here: <a href="{{project.website.page}}" target="_blank">{{project.website.name}}</a>

@@ -272,7 +272,7 @@ a, a:hover, a:active, a:visited, a:link{
 }
 
 .project-img{
-  margin: 10px;
+  margin: 10px auto;
   padding: 10px;
   border: 2px solid #A0C9DC;
   border-radius: 10px;

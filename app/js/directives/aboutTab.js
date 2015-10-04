@@ -12,6 +12,11 @@ digitApp.directive('aboutTab', function() {
 				this.setTab = function (activeTab) {
 					this.tab = activeTab;
 				};
+
+				this.currentIndex = 0;
+				this.setCurrent = function (current) {
+					this.currentIndex = current || 0;
+				};
 	},
 	controllerAs: "tab" 
   }; 
