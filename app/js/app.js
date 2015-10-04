@@ -1,4 +1,4 @@
-var digitApp = angular.module('digitApp', ['ngRoute']);
+var digitApp = angular.module('digitApp', ['ngRoute', 'prodAnimations']);
 
 digitApp.config(['$routeProvider', function($routeProvider) { 
   $routeProvider 

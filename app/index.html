@@ -4,9 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Angular Digit App</title>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-	<link rel="stylesheet" href="css/app.css">
+	<!-- Main CSS styles -->
+  <link rel="stylesheet" href="css/app.css">
+  <!-- CSS styles for Contact and about pages -->
   <link rel="stylesheet" href="css/contact.css">
+  <!-- CSS styles for Order form -->
   <link rel="stylesheet" href="css/order.css">
+  <!-- for CSS Transitions and/or Keyframe Animations -->
+  <link rel="stylesheet" href="css/animations.css">
   <link href="https://fonts.googleapis.com/css?family=Changa%20One%7COpen%20Sans:400,400italic,700,700italic,800" rel="stylesheet" type="text/css">
   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 </head>
@@ -48,6 +53,8 @@
     </footer>
 </div>
 
+  <!-- jQuery is used for JavaScript animations (include this before angular.js) -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
 
 	<!-- Angular.js core JavaScript
 	================================================== -->
@@ -55,9 +62,14 @@
 	<script src="bower_components/angular/angular.js"></script>
   <!--Angular.js Route-->
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <!-- required module to enable animation support in AngularJS -->
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
 
 	<!-- Modules -->
   <script src="js/app.js"></script>
+
+  <!-- for JavaScript Animations -->
+  <script src="js/animations.js"></script>
 
   <!-- Controllers -->
   <script src="js/controllers/MainController.js"></script>

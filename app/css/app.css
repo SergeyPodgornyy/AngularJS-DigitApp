@@ -111,21 +111,46 @@ h2 {
     width: 50%; /* 6 columns */
   }
 }
-.phone-images {
+.product-images {
   text-align: center;
 }
-.phone-images img {
+.product-images img {
   max-width: 100%;
 }
 
-.phone-thumbs li {
+.product-thumbs li {
   float: left;
   width: 30%;
   padding:16px;
 }
-.phone-thumbs li img {
+.product-thumbs li img {
   max-width: 100%;
 }
+
+.product-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+img.product {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+img.product:first-child {
+  display: block;
+  }
+
 .specs li {
   display: inline-block;
   vertical-align: top;

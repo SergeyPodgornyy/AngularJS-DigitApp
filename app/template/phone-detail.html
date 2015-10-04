@@ -1,10 +1,12 @@
 <div class="row">
   <div class="col-xs-12 col-sm-4">
     <div>
-    <div class="phone-images">
-      <img ng-src="{{mainImageUrl}}">
+    <div class="product-images">
+      <img ng-src="{{img}}" class="product" ng-repeat="img in phone.images" ng-class="{active:mainImageUrl==img}">
+      <!-- Old realization -->
+      <!-- <img ng-src="{{mainImageUrl}}" class="product"> -->
     </div>
-    <ul class="phone-thumbs list-unstyled">
+    <ul class="product-thumbs list-unstyled">
       <li ng-repeat="img in phone.images">
         <img ng-src="{{img}}" ng-click="setImage(img)">
       </li>

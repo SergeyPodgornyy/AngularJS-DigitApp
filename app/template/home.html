@@ -10,8 +10,8 @@
         <p>This is an example of an application written in AngularJS, especially by Sergey Podgornyy.</p>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-4 item" ng-repeat="phone in phones | filter:search">
-          <product-list info="phone"></product-list>
+        <div class="col-xs-12 col-sm-6 col-lg-4 item product-listing view-container" ng-repeat="phone in phones | filter:search">
+          <product-list info="phone" class="view-frame"></product-list>
         </div><!--/.col-sm-6.col-lg-4-->
       </div><!--/row-->
     </div><!--/.col-xs-12.col-sm-9-->
