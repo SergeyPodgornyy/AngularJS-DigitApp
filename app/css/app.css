@@ -172,9 +172,9 @@ h2 {
 
 img.product {
   float: left;
-  margin: 0 auto 2em;
+
   background-color: white;
-  padding: 2em;
+
   height: 350px;
   width: 350px;
   display: none;
@@ -221,15 +221,15 @@ dd{
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 979px) {
   .product-images {
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
   }
 
   img.product {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
 
   .product-thumbs li {
@@ -237,29 +237,7 @@ dd{
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 979px) {
-  .order-form{
-    padding:5px 10px !important;
-  }
-
-  .order-form h1{
-    font-size:24px !important;
-  }
-
-  .order-form ul{
-    font-size:14px !important;
-  }
-
-  .order-form ul li{
-    padding:10px 10px !important;
-  }
-
-  div.total{
-    font-size:18px !important;
-  }
-}
-
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 980px) and (max-width: 1199px) {
   .product-images {
     height: 350px;
     width: 350px;
@@ -281,5 +259,32 @@ dd{
   img.product {
     height: 350px;
     width: 350px;
+  }
+}
+
+.product-images img {
+  max-width: 100%;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .order-form{
+    padding:5px 10px !important;
+  }
+
+  .order-form h1{
+    font-size:24px !important;
+  }
+
+  .order-form ul{
+    font-size:14px !important;
+  }
+
+  .order-form ul li{
+    padding:10px 10px !important;
+  }
+
+  div.total{
+    font-size:18px !important;
   }
 }
