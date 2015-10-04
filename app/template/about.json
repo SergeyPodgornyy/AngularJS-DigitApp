@@ -1,0 +1,57 @@
+[
+	{
+		"name": "Social network",
+		"description": "Web site still development, written in php, is a project of a social network. Drawable canvas and games are implemented on the website.",
+		"website": {
+			"page": "http://grafo.in.ua",
+			"name": "http://grafo.in.ua"
+		},
+		"images": [
+			"img/about/dev_1_1.png",
+			"img/about/dev_1_2.png",
+			"img/about/dev_1_3.png"
+		]
+	},
+	{
+		"name": "Online store",
+		"description": "Online store website, is written using Angular.js.",
+		"website": {
+			"page": "http://digit.co.nf",
+			"name": "http://digit.co.nf"
+		},
+		"images": [
+			"img/about/dev_2_1.png",
+			"img/about/dev_2_2.png",
+			"img/about/dev_2_3.png"
+		]
+	},
+	{
+		"name": "Attendance page",
+		"description": "Attendance page of the company's employees that calculates employee productivity. Master's degree work (thesis).",
+		"website": {
+			"page": false,
+			"name": false
+		},
+		"images": [
+			"img/about/dev_3_1.png",
+			"img/about/dev_3_2.png",
+			"img/about/dev_3_3.png",
+			"img/about/dev_3_4.png"
+		]
+	},
+	{
+		"name": "Blog",
+		"description": "Internet blog, realized on Node.js and MongoDB. Final exam on MongoDB University.",
+		"website": {
+			"page": "https://github.com/SergeyPodgornyy/NodeJS-blog",
+			"name": "Github"
+		},
+		"images": [
+			"img/about/dev_4_1.png",
+			"img/about/dev_4_2.png",
+			"img/about/dev_4_3.png",
+			"img/about/dev_4_4.png",
+			"img/about/dev_4_5.png"
+		]
+	}
+]

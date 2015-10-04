@@ -5,9 +5,8 @@
 	<p>My other projects you can see here, or <a href="https://github.com/SergeyPodgornyy" target="_blank">Fork me on Github</a>.</p>
 	<p>
 		<ul>
-			<li>Web site still development, written in php, is a project of a social network.</li>
-			<li>Online store website, is written using Angular.js.</li>
-			<li>Statistics page of the company's employees productivity.</li>
+			<li ng-repeat="project in projects">{{project.description}}<br>
+			<p ng-show="project.website.page">See here: <a href="{{project.website.page}}" target="_blank">{{project.website.name}}</a></p></li>
 		</ul>
 	</p>
 </div>
