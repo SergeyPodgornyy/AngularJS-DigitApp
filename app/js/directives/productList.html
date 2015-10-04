@@ -1,6 +1,6 @@
 
 	<div class="preview-img text-center">
-		<img ng-src="{{info.imageUrl}}" alt="{{info.name}}">
+		<a href="#/phones/{{info.id}}" ><img ng-src="{{info.imageUrl}}" alt="{{info.name}}"></a>
 		<span class="label" ng-init="status = info.status ? 'Avaliable' : 'Under the order'" 
 						  ng-class="{'label-success':info.status, 'label-warning':!info.status}">{{status}}</span>
 		<span class="price">{{info.price|currency}}</span>

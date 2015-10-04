@@ -267,7 +267,7 @@ a, a:hover, a:active, a:visited, a:link{
   height: 100px;
   overflow: hidden;
   border: 2px solid #6ca439;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .about{
