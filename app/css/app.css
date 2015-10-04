@@ -67,6 +67,32 @@ h2 {
   background: #fff no-repeat 10px 8px;
   background-image: url('../img/magnifier.png');
 }
+
+.btn {
+  color: #333;
+  border-color: #ccc;
+  background-color: transparent;
+}
+
+.btn-like .btn {
+  background-color: #CC0000;
+  border-color: #B20000;
+  color: #fff;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn-feed{
+  font-weight: 600;
+}
+
+.plus{
+  position:absolute;
+  right: 15px;
+}
+
 /*
  * Off Canvas
  * --------------------------------------------------
