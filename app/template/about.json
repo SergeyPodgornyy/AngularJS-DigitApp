@@ -7,9 +7,9 @@
 			"name": "http://grafo.in.ua"
 		},
 		"images": [
-			"img/about/dev_1_1.png",
-			"img/about/dev_1_2.png",
-			"img/about/dev_1_3.png"
+			"img/about/dev_1_1.jpg",
+			"img/about/dev_1_2.jpg",
+			"img/about/dev_1_3.jpg"
 		]
 	},
 	{
@@ -20,9 +20,9 @@
 			"name": "http://digit.co.nf"
 		},
 		"images": [
-			"img/about/dev_2_1.png",
-			"img/about/dev_2_2.png",
-			"img/about/dev_2_3.png"
+			"img/about/dev_2_1.jpg",
+			"img/about/dev_2_2.jpg",
+			"img/about/dev_2_3.jpg"
 		]
 	},
 	{
@@ -33,10 +33,10 @@
 			"name": false
 		},
 		"images": [
-			"img/about/dev_3_1.png",
-			"img/about/dev_3_2.png",
-			"img/about/dev_3_3.png",
-			"img/about/dev_3_4.png"
+			"img/about/dev_3_1.jpg",
+			"img/about/dev_3_2.jpg",
+			"img/about/dev_3_3.jpg",
+			"img/about/dev_3_4.jpg"
 		]
 	},
 	{
@@ -47,11 +47,27 @@
 			"name": "Github"
 		},
 		"images": [
-			"img/about/dev_4_1.png",
-			"img/about/dev_4_2.png",
-			"img/about/dev_4_3.png",
-			"img/about/dev_4_4.png",
-			"img/about/dev_4_5.png"
+			"img/about/dev_4_1.jpg",
+			"img/about/dev_4_2.jpg",
+			"img/about/dev_4_3.jpg",
+			"img/about/dev_4_4.jpg",
+			"img/about/dev_4_5.jpg"
+		]
+	},
+	{
+		"name": "Landing page",
+		"description": "Landing page for labour company. It includes Responsive design, Cross browser layout, UX Design. Employed the jQuery library for visual effects, event handling, and document manipulation. Back-end for feedback form.",
+		"website": {
+			"page": "http://artel-labour.com/",
+			"name": "Artel labour"
+		},
+		"images": [
+			"img/about/dev_5_1.jpg",
+			"img/about/dev_5_2.jpg",
+			"img/about/dev_5_3.jpg",
+			"img/about/dev_5_4.jpg",
+			"img/about/dev_5_5.jpg",
+			"img/about/dev_5_6.jpg"
 		]
 	}
 ]
