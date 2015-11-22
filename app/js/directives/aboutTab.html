@@ -9,9 +9,7 @@
 	<div ng-show="tab.isSet(project)" ng-repeat="project in projects">
 
 		<div ng-show="project.images.length">
-		  <img class="img-responsive project-img center-block"
-		       ng-src="{{project.images[tab.currentIndex]}}">
-			<ul class="list-inline list-unstyled text-center" style="margin-top: 20px">
+		  <ul class="list-inline list-unstyled text-center" style="margin-top: 20px">
 				<li ng-repeat="image in project.images"
 				    ng-click="tab.setCurrent($index)"
 						style="cursor: pointer">
@@ -20,6 +18,9 @@
 								 ng-src="{{image}}">
 				</li>
 			</ul>
+		  <img class="img-responsive project-img center-block"
+		       ng-src="{{project.images[tab.currentIndex]}}">
+			
 		</div>
 
 		<p>{{project.description}}</p>
