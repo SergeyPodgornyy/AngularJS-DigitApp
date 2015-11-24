@@ -93,13 +93,16 @@
   background: #eee no-repeat 50% 50%;
   background-size: cover;
   text-shadow: 0px;
-  color: #333;
+  color: #555;
 }
 
-.contact h1{
-  font-size: 36px;
+.contact h1, .about h1{
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: #4B5D7D;
+  font-size: 48px;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .separator{
@@ -247,7 +250,7 @@ a, a:hover, a:active, a:visited, a:link{
 }
 
 .info{
-  margin-top: 80px;
+  margin-top: 40px;
   color:#666; 
 }
 
@@ -262,7 +265,7 @@ a, a:hover, a:active, a:visited, a:link{
   margin: 15px 0px;
 }
 
-.info img{
+.info p img{
   width:100px;
   height: 100px;
   overflow: hidden;
@@ -284,4 +287,22 @@ a, a:hover, a:active, a:visited, a:link{
   padding: 10px;
   border: 2px solid #A0C9DC;
   border-radius: 10px;
+}
+
+.hint{
+  text-align: right;
+  color:#909090;
+}
+
+
+/* Modal */
+@media (min-width: 768px){
+  .modal-dialog {
+      width: 80%;
+      margin: 30px auto;
+  }
+}
+
+.modal-body{
+  font-size: 18px;
 }
