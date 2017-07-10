@@ -8,7 +8,7 @@ digitApp.controller('MainCtrl', ['$scope', 'phones', '$location', function ($sco
   // console.log('$location.hash() - ', $location.hash());
   // 	//where we should go and using service $anchorScroll move to necessary part
 
-  phones.success(function(data){
-    $scope.phones = data;
-  });
+    phones.success(function(data){
+        $scope.phones = data;
+    });
 }]);

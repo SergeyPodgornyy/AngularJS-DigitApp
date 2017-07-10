@@ -1,11 +1,20 @@
+    <div class="preview-img text-center">
+        <a href="#/phones/{{info.id}}">
+            <img ng-src="{{info.imageUrl}}" alt="{{info.name}}">
+        </a>
+        <span class="label"
+              ng-init="status = info.status ? 'Avaliable' : 'Under the order'"
+              ng-class="{'label-success':info.status, 'label-warning':!info.status}">
+            {{status}}
+        </span>
+        <span class="price">{{info.price|currency}}</span>
+    </div>
 
-	<div class="preview-img text-center">
-		<a href="#/phones/{{info.id}}" ><img ng-src="{{info.imageUrl}}" alt="{{info.name}}"></a>
-		<span class="label" ng-init="status = info.status ? 'Avaliable' : 'Under the order'" 
-						  ng-class="{'label-success':info.status, 'label-warning':!info.status}">{{status}}</span>
-		<span class="price">{{info.price|currency}}</span>
-	</div>
-	<h2>{{info.name}}</h2>
-	<p>{{info.snippet}}</p>
-	<p><a class="btn btn-default" href="#/phones/{{info.id}}" role="button">View details &raquo;</a><plus-one class="plus"></plus-one></p>
-	
+    <h2>{{info.name}}</h2>
+
+    <p>{{info.snippet}}</p>
+
+    <p>
+        <a class="btn btn-default" href="#/phones/{{info.id}}" role="button">View details &raquo;</a>
+        <plus-one class="plus"></plus-one>
+    </p>

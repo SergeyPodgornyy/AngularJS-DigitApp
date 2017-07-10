@@ -1,9 +1,9 @@
-digitApp.directive('productList', function() { 
-  return { 
-    restrict: 'E', 
-    scope: { 
-      info: '=' 
-    }, 
-    templateUrl: 'js/directives/productList.html' 
-  }; 
+digitApp.directive('productList', function() {
+    return {
+        restrict: 'E',
+        scope: {
+            info: '='
+        },
+        templateUrl: 'js/directives/productList.html'
+    };
 });

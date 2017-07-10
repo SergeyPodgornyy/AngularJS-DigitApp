@@ -1,80 +1,80 @@
 /*-------------------------
-	General Styles
+    General Styles
 --------------------------*/
 
 a, a:visited {
-	outline:none;
-	color:#389dc1;
+    outline: none;
+    color: #389dc1;
 }
 
-a:hover{
-	text-decoration:none;
+a:hover {
+    text-decoration: none;
 }
 
 section, footer, header, aside, nav{
-	display: block;
+    display: block;
 }
 
 
 /*-------------------------
-	The order form
+    The order form
 --------------------------*/
 
 
-.order-form{
-	background-color: #61a1bc;
-	border-radius: 2px;
-	box-shadow: 0 1px 1px #ccc;
-	padding: 25px 30px;
-	margin: 30px auto;
-	position: relative;
+.order-form {
+    background-color: #61a1bc;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 25px 30px;
+    margin: 30px auto;
+    position: relative;
 }
 
-.order-form h1{
-	color:#fff;
-	font-size:48px;
-	text-align: center;
-	font-family: 'Changa One', sans-serif;
-	font-weight: normal;
-	line-height:1;
-	text-shadow:0 3px 0 rgba(0,0,0,0.1);
+.order-form h1 {
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Changa One', sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    text-shadow: 0 3px 0 rgba(0,0,0,0.1);
 }
 
-.order-form ul{
-	list-style:none;
-	color:#fff;
-	font-size:18px;
-	font-weight:bold;
-	text-align: left;
-	margin:20px 0px 15px;
-	padding-left: 0px;
+.order-form ul {
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0px 15px;
+    padding-left: 0px;
 }
 
-.order-form ul li{
-	padding:15px 20px;
-	background-color:#e35885;
-	margin-bottom:8px;
-	box-shadow:0 1px 1px rgba(0,0,0,0.1);
-	cursor:pointer;
+.order-form ul li {
+    padding: 15px 20px;
+    background-color: #e35885;
+    margin-bottom: 8px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
 }
 
-.order-form ul li span{
-	float:right;
+.order-form ul li span {
+    float: right;
 }
 
-.order-form ul li.active{
-	background-color:#8ec16d;
+.order-form ul li.active {
+    background-color: #8ec16d;
 }
 
-div.total{
-	border-top:1px solid rgba(255,255,255,0.5);
-	padding:15px 30px;
-	font-size:20px;
-	font-weight:bold;
-	text-align: left;
-	color:#fff;
+div.total {
+    border-top: 1px solid rgba(255,255,255,0.5);
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
 }
 
-div.total span{
-	float:right;
+div.total span {
+    float: right;
 }

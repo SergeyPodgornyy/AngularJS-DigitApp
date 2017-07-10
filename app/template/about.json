@@ -1,73 +1,91 @@
 [
-	{
-		"name": "Social network",
-		"description": "Web site still development, written in php, is a project of a social network. Drawable canvas and games are implemented on the website.",
-		"website": {
-			"page": "http://grafo.in.ua",
-			"name": "http://grafo.in.ua"
-		},
-		"images": [
-			"img/about/dev_1_1.jpg",
-			"img/about/dev_1_2.jpg",
-			"img/about/dev_1_3.jpg"
-		]
-	},
-	{
-		"name": "Online store",
-		"description": "Online store website, is written using Angular.js.",
-		"website": {
-			"page": "http://digit.co.nf",
-			"name": "http://digit.co.nf"
-		},
-		"images": [
-			"img/about/dev_2_1.jpg",
-			"img/about/dev_2_2.jpg",
-			"img/about/dev_2_3.jpg"
-		]
-	},
-	{
-		"name": "Attendance page",
-		"description": "Attendance page of the company's employees that calculates employee productivity. Master's degree work (thesis).",
-		"website": {
-			"page": false,
-			"name": false
-		},
-		"images": [
-			"img/about/dev_3_1.jpg",
-			"img/about/dev_3_2.jpg",
-			"img/about/dev_3_3.jpg",
-			"img/about/dev_3_4.jpg"
-		]
-	},
-	{
-		"name": "Blog",
-		"description": "Internet blog, realized on Node.js and MongoDB. Final exam on MongoDB University.",
-		"website": {
-			"page": "https://github.com/SergeyPodgornyy/NodeJS-blog",
-			"name": "Github"
-		},
-		"images": [
-			"img/about/dev_4_1.jpg",
-			"img/about/dev_4_2.jpg",
-			"img/about/dev_4_3.jpg",
-			"img/about/dev_4_4.jpg",
-			"img/about/dev_4_5.jpg"
-		]
-	},
-	{
-		"name": "Landing page",
-		"description": "Landing page for labour company. It includes Responsive design, Cross browser layout, UX Design. Employed the jQuery library for visual effects, event handling, and document manipulation. Back-end for feedback form.",
-		"website": {
-			"page": "http://artel-labour.com/",
-			"name": "Artel labour"
-		},
-		"images": [
-			"img/about/dev_5_1.jpg",
-			"img/about/dev_5_2.jpg",
-			"img/about/dev_5_3.jpg",
-			"img/about/dev_5_4.jpg",
-			"img/about/dev_5_5.jpg",
-			"img/about/dev_5_6.jpg"
-		]
-	}
+    {
+        "name": "Online store",
+        "description": "Online store website, is written using Angular.js.",
+        "website": {
+            "page": "http://digit.co.nf",
+            "name": "http://digit.co.nf"
+        },
+        "images": [
+            "img/about/dev_2_1.jpg",
+            "img/about/dev_2_2.jpg",
+            "img/about/dev_2_3.jpg"
+        ]
+    },
+    {
+        "name": "Attendance page",
+        "description": "Attendance page of the company's employees that calculates employee productivity. Master's degree work (thesis).",
+        "website": {
+            "page": false,
+            "name": false
+        },
+        "images": [
+            "img/about/dev_3_1.jpg",
+            "img/about/dev_3_2.jpg",
+            "img/about/dev_3_3.jpg",
+            "img/about/dev_3_4.jpg"
+        ]
+    },
+    {
+        "name": "Blog",
+        "description": "Internet blog, realized on Node.js and MongoDB. Final exam on MongoDB University.",
+        "website": {
+            "page": "https://github.com/SergeyPodgornyy/NodeJS-blog",
+            "name": "Github"
+        },
+        "images": [
+            "img/about/dev_4_1.jpg",
+            "img/about/dev_4_2.jpg",
+            "img/about/dev_4_3.jpg",
+            "img/about/dev_4_4.jpg",
+            "img/about/dev_4_5.jpg"
+        ]
+    },
+    {
+        "name": "Landing page",
+        "description": "Landing page for labour company. It includes Responsive design, Cross browser layout, UX Design. Employed the jQuery library for visual effects, event handling, and document manipulation. Back-end for feedback form.",
+        "website": {
+            "page": "http://artel-labour.com/",
+            "name": "Artel labour"
+        },
+        "images": [
+            "img/about/dev_5_1.jpg",
+            "img/about/dev_5_2.jpg",
+            "img/about/dev_5_3.jpg",
+            "img/about/dev_5_4.jpg",
+            "img/about/dev_5_5.jpg",
+            "img/about/dev_5_6.jpg"
+        ]
+    },
+    {
+        "name": "hejfish",
+        "Description": "hejfish, aka bissanzeiger, it's an Europewide platform for fishermen, where they can order fishing license, buy fishing staff and tickets for fishing, share their catch...",
+        "website": {
+            "page": "https://hejfish.com",
+            "name": "hejfish portal"
+        },
+        "images": [
+            "img/about/dev_6_1.png",
+            "img/about/dev_6_2.png",
+            "img/about/dev_6_3.png",
+            "img/about/dev_6_4.png",
+            "img/about/dev_6_5.png"
+        ]
+    },
+    {
+        "name": "Brain Computers",
+        "Description": "",
+        "website": {
+            "page": "https://brain.com.ua",
+            "name": "Brain portal"
+        },
+        "images": [
+            "img/about/dev_7_1.png",
+            "img/about/dev_7_2.png",
+            "img/about/dev_7_3.png",
+            "img/about/dev_7_4.png",
+            "img/about/dev_7_5.png",
+            "img/about/dev_7_6.png"
+        ]
+    }
 ]
